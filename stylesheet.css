@@ -1,0 +1,46 @@
+.container{
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.program{
+    text-align: center;
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    background-color: #f7cccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.program label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.program input{
+    padding: 8px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.program button{
+    background-color: rgb(217, 139, 139);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.program p{
+    margin-top: 10px;
+    font-weight: bold;
+    white-space: pre-line;
+}
